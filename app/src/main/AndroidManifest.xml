@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.farm.farmapp" >
+    package="com.farm.farmapp">
 
     <application
         android:allowBackup="true"
@@ -8,8 +8,29 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
-        <activity android:name=".MainActivity" >
+        android:theme="@style/AppTheme">
+        <activity android:name=".PersonEntry"></activity>
+        <activity android:name=".StructureEntry" />
+        <activity android:name=".PlotEntry" />
+        <activity android:name=".FieldEntry" />
+        <activity android:name=".ItemEntry" />
+        <activity android:name=".Items" />
+        <activity android:name=".ActivityTypesHome" />
+        <activity android:name=".ActiviityTypesEntry" />
+        <activity android:name=".OrganisationEntry" />
+        <activity android:name=".EnterpriseEntry" />
+        <activity android:name=".ActivityEntry7" />
+        <activity android:name=".ActivityEntry6" />
+        <activity android:name=".ActivityEntry5" />
+        <activity android:name=".ActivityEntry4" />
+        <activity android:name=".ActivityEntry3" />
+        <activity android:name=".ActivityEntry2" />
+        <activity android:name=".ActivityEntry1" />
+        <activity android:name=".EnterpriseActivities" />
+        <activity android:name=".EnterpriseSelectedField" />
+        <activity android:name=".EnterpriseFields" />
+        <activity android:name=".EnterpriseHomepage" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
